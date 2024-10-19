@@ -1,43 +1,177 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
-.navigation-bar0{
-    width: 100%;
+.navigation-bar0 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top:0;
+  z-index: 4;
+}
+.navigation-bar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.website-logo {
+  width: 50px;
+}
+.navigation-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-icons {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.heroes-section {
+  position: relative;
+}
+.hero-section-image {
+  width: 100%;
+  height: 500px;
+}
+.tag-line {
+  width: 100%;
+  font-size: 80px;
+  font-style: oblique;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+}
+.featured-destinations-section-title{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+}
+.travel-destinations {
+  padding: 20px 0px;
+  display: flex;
+}
+.destination {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.city-image {
+  width: 80%;
+  height: 300px;
+}
+.city-name {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.city-description {
+  width: 80%;
+  text-align: center;
+}
+.destination:hover {
+  background-color: brown;
+}
+.city-image:hover {
+  width: 100%;
+}
+.travel-tips-section-title{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+.travel-tips{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.travel-card{
+    width: 20%;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow: 2px 6px 10px pink;
+}
+.travel-tip-icon{
+    width: 80px;
+    margin-left: 10px;
+}
+.travel-tip{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.site-history0{
+    height: 150px;
     display: flex;
     justify-content: center;
-    position: sticky;
+    align-items: end;
 }
-.navigation-bar{
+.site-history{
+    width: 90%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-us{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.user-data-receiving-section0{
+    display: flex;
+    justify-content: center;
+}
+.user-data-receiving-section{
+    width: 90%;
+    margin-top: 50px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contact-us{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.user-name-email{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+}
+.user-message{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+}
+button{
+    width: 150px;
+    padding: 10px;
+}
+.concluding-bar0{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.concluding-bar{
+    height: 120px;
     width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.website-logo{
-    width: 50px;
-}
-.navigation-links{
-    width: 40%;
+.social-media-logos{
+    width:20%;
     display: flex;
     justify-content: space-between;
 }
-.navigation-icons{
+.social-media{
+    width: 40px;
+}
+.social-media:hover{
+    width: 100px;
+}
+.copyright{
     font-size: 20px;
-    font-weight: bolder;
-}
-.heroes-section{
-    position: relative;
-}
-.hero-section-image{
-    width: 100%;
-    height: 500px;
-}
-.tag-line{
-    width: 100%;
-    font-size: 80px;
-    font-style: oblique;
-    text-align: center;
-    position: absolute;
-    top: 30%;
 }
