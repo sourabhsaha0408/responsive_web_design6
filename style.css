@@ -9,7 +9,7 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  background-color: rgb(2, 253, 245);
+  /* background-color: #a85f62; */
 }
 .navigation-bar {
   width: 90%;
@@ -28,7 +28,6 @@
 .navigation-icons {
   font-size: 20px;
   font-weight: bolder;
-  color: #ef1919;
 }
 .heroes-section {
   position: relative;
@@ -68,7 +67,7 @@
 .city-name {
   font-size: 20px;
   font-weight: bolder;
-  color: #ef1919;
+  /* color: #ef1919; */
 }
 .city-description {
   width: 80%;
@@ -110,7 +109,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(2, 253, 245);
+  /* background-color: rgb(2, 253, 245); */
 }
 .site-history {
   width: 90%;
@@ -122,7 +121,7 @@
 .about-us {
   font-size: 20px;
   font-weight: bolder;
-  color: #ef1919;
+  /* color: #ef1919; */
 }
 .user-data-receiving-section0 {
   display: flex;
@@ -139,7 +138,7 @@
 .contact-us {
   font-size: 20px;
   font-weight: bolder;
-  color: #ef1919;
+  /* color: #ef1919; */
 }
 .user-name-email {
   width: 300px;
@@ -154,9 +153,9 @@
 button {
   width: 150px;
   padding: 10px;
-  background-color: rgb(2, 253, 245);
+  /* background-color: rgb(2, 253, 245); */
   font-weight: bolder;
-  color: #ef1919;
+  /* color: #ef1919; */
 }
 .concluding-bar0 {
   margin-top: 40px;
@@ -182,6 +181,8 @@ button {
   width: 100px;
 }
 .copyright {
+  display: flex;
+  justify-content: right;
   width: 40%;
   font-size: 20px;
 }
