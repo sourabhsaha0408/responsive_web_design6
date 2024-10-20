@@ -7,8 +7,9 @@
   display: flex;
   justify-content: center;
   position: sticky;
-  top:0;
-  z-index: 4;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(2, 253, 245);
 }
 .navigation-bar {
   width: 90%;
@@ -27,6 +28,7 @@
 .navigation-icons {
   font-size: 20px;
   font-weight: bolder;
+  color: #ef1919;
 }
 .heroes-section {
   position: relative;
@@ -43,10 +45,10 @@
   position: absolute;
   top: 30%;
 }
-.featured-destinations-section-title{
-    font-size: 45px;
-    text-align: center;
-    margin-top: 50px;
+.featured-destinations-section-title {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 50px;
 }
 .travel-destinations {
   padding: 20px 0px;
@@ -66,112 +68,234 @@
 .city-name {
   font-size: 20px;
   font-weight: bolder;
+  color: #ef1919;
 }
 .city-description {
   width: 80%;
   text-align: center;
 }
 .destination:hover {
-  background-color: brown;
+  background-color: rgb(216, 228, 206);
 }
 .city-image:hover {
   width: 100%;
 }
-.travel-tips-section-title{
-    margin-top: 50px;
+.travel-tips-section-title {
+  margin-top: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+.travel-tips {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.travel-card {
+  width: 20%;
+  height: 250px;
+  border: 1px solid black;
+  box-shadow: 2px 6px 10px rgb(2, 253, 245);
+  background-color: rgb(216, 228, 206);
+}
+.travel-tip-icon {
+  width: 80px;
+  margin-left: 10px;
+}
+.travel-tip {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.site-history0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(2, 253, 245);
+}
+.site-history {
+  width: 90%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.about-us {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #ef1919;
+}
+.user-data-receiving-section0 {
+  display: flex;
+  justify-content: center;
+}
+.user-data-receiving-section {
+  width: 90%;
+  margin-top: 50px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.contact-us {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #ef1919;
+}
+.user-name-email {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+}
+.user-message {
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+}
+button {
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(2, 253, 245);
+  font-weight: bolder;
+  color: #ef1919;
+}
+.concluding-bar0 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.concluding-bar {
+  height: 120px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media-logos {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.social-media {
+  width: 40px;
+}
+.social-media:hover {
+  width: 100px;
+}
+.copyright {
+  width: 40%;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .navigation-links {
+    width: 50%;
+  }
+  .destination {
+    height: 500px;
+  }
+  .site-history {
+    height: 170px;
+  }
+  .social-media-logos {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .featured-destinations-section-title {
+    font-size: 35px;
+  }
+  .city-image {
+    height: 250px;
+  }
+  .travel-tips-section-title {
+    font-size: 35px;
+  }
+  .travel-card {
+    height: 280px;
+  }
+  .site-history {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .navigation-links {
+    width: 60%;
+  }
+  .tag-line {
+    font-size: 60px;
+  }
+  .featured-destinations-section-title {
+    font-size: 30px;
+  }
+  .travel-destinations {
+    padding: 0px;
+    display: block;
+  }
+  .destination {
+    height: 400px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  .travel-tips-section-title {
+    font-size: 30px;
+  }
+  .travel-tips {
+    padding-top: 0px;
+    flex-wrap: wrap;
+  }
+  .travel-card {
+    width: 200px;
+    margin: 20px 10px 0px 10px;
+  }
+  .social-media-logos {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navigation-icons {
+    font-size: 15px;
+  }
+  .hero-section-image {
+    height: 400px;
+  }
+  .tag-line {
     font-size: 40px;
-    text-align: center;
-}
-.travel-tips{
-    padding-top: 20px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.travel-card{
-    width: 20%;
-    height: 250px;
-    border: 1px solid black;
-    box-shadow: 2px 6px 10px pink;
-}
-.travel-tip-icon{
-    width: 80px;
-    margin-left: 10px;
-}
-.travel-tip{
-    margin-top: 30px;
-    margin-left: 10px;
-}
-.site-history0{
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
-.site-history{
-    width: 90%;
-    height: 110px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.about-us{
+  }
+  .featured-destinations-section-title {
     font-size: 20px;
-    font-weight: bolder;
-}
-.user-data-receiving-section0{
-    display: flex;
-    justify-content: center;
-}
-.user-data-receiving-section{
-    width: 90%;
-    margin-top: 50px;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.contact-us{
+  }
+  .travel-tips-section-title {
     font-size: 20px;
-    font-weight: bolder;
+  }
+  .site-history {
+    height: 230px;
+  }
+  .social-media {
+    width: 25px;
+  }
+  .copyright {
+    font-size: 15px;
+  }
 }
-.user-name-email{
-    width: 300px;
-    height: 30px;
-    padding: 10px;
-}
-.user-message{
+
+@media screen and (max-width: 450px) {
+  .navigation-links {
+    width: 70%;
+  }
+  .hero-section-image {
+    height: 350px;
+  }
+  .destination {
+    height: 450px;
+  }
+  .site-history {
+    height: 350px;
+  }
+  .travel-card {
     width: 300px;
     height: 250px;
-    padding: 10px;
-}
-button{
-    width: 150px;
-    padding: 10px;
-}
-.concluding-bar0{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
-.concluding-bar{
-    height: 120px;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.social-media-logos{
-    width:20%;
-    display: flex;
-    justify-content: space-between;
-}
-.social-media{
-    width: 40px;
-}
-.social-media:hover{
-    width: 100px;
-}
-.copyright{
-    font-size: 20px;
+  }
 }
