@@ -9,7 +9,7 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  /* background-color: #a85f62; */
+  background-color: white;
 }
 .navigation-bar {
   width: 90%;
@@ -208,6 +208,7 @@ button {
   }
   .city-image {
     height: 250px;
+    object-fit: cover;
   }
   .travel-tips-section-title {
     font-size: 35px;
