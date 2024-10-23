@@ -10,6 +10,7 @@
   top: 0;
   z-index: 1;
   background-color: white;
+  background-color: rgb(2, 253, 245);
 }
 .navigation-bar {
   width: 90%;
@@ -218,6 +219,10 @@ button {
   }
   .site-history {
     height: 190px;
+  }
+  .city-image {
+    height: 250px;
+    object-fit: none;
   }
 }
 
